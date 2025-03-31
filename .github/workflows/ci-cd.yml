@@ -19,6 +19,13 @@ jobs:
 
       - name: Install Dependencies
         run:  npm install
+    
+      - name: Snyk Security Scan
+        run: |
+          npm install -g snyk
+          snyk auth ${{ secrets.SNYK_TOKEN }}
+          snyk test
+      
 
       - name: Run Tests
         run:  npm test
@@ -42,9 +49,4 @@ jobs:
         run: |
           echo "Deployment for Windows"
     
-      - name: Snyk Security Scan
-        run: |
-          npm install -g snyk
-          snyk auth ${{ secrets.SNYK_TOKEN }}
-          snyk test
       
