@@ -43,7 +43,7 @@ jobs:
           echo "Deployment for Windows"
     
       - name: Snyk Security Scan
-      - run: |
+        run: |
           npm install -g snyk
           snyk auth ${{ secrets.SNYK_TOKEN }}
           snyk test
