@@ -1,5 +1,0 @@
-how to run this app?
-1-install node js 18 version in your system
-2- clone repo : https://github.com/MdEkbal-Ahmed/Inventory-Mangement-App.git
-3- open this app root directory in cmd & Run CMD (npm install)
-4- Run CMD (npm start) & click localhost link and USE my App
