@@ -1,0 +1,258 @@
+{
+  "id": "29c078f2-859c-4891-bf3d-7b0a2c8b5d58",
+  "version": "2.0",
+  "name": "Inventory App",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "e2e6459f-3bfc-492a-a66e-65866d9716fa",
+    "name": "Inventory App test",
+    "commands": [{
+      "id": "611efb06-368d-4bfd-bb8c-0105520ee796",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d97d09b-52f7-469a-9854-6c15b25acbdd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e609d1c0-91ed-4ec3-897a-8920839ddd26",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da2ce363-ae98-48b9-8034-d16d3d9dd831",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Apple"
+    }, {
+      "id": "68908c02-3859-422a-9b76-b4e8316e5ab5",
+      "comment": "",
+      "command": "click",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15ee7fec-d9de-4679-95d2-8ee50d72a52f",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "aac1c2b2-7898-4151-b7a8-ce336c6eea46",
+      "comment": "",
+      "command": "click",
+      "target": "id=price",
+      "targets": [
+        ["id=price", "id"],
+        ["css=#price", "css:finder"],
+        ["xpath=//input[@id='price']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d695731-1e43-4925-bfbd-578cb54b3f54",
+      "comment": "",
+      "command": "type",
+      "target": "id=price",
+      "targets": [
+        ["id=price", "id"],
+        ["css=#price", "css:finder"],
+        ["xpath=//input[@id='price']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "200"
+    }, {
+      "id": "8c42b96e-8ef7-4061-b601-fa4a9e9b43b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@onclick='addProduct()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc8a2df9-fb36-4d31-a597-c543a5ed5cb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=//button[@onclick=\"editProduct(1741427891325, 'Apple', 2, 200)\"]", "xpath:attributes"],
+        ["xpath=//tbody[@id='productTable']/tr/td[4]/button", "xpath:idRelative"],
+        ["xpath=//td[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd3f03a9-4a64-4148-99c4-cce521e9a711",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.col-md-3",
+      "targets": [
+        ["css=.col-md-3", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "279,28"
+    }, {
+      "id": "70971114-5073-4a27-8cbe-6f999d1dab60",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.col-md-3",
+      "targets": [
+        ["css=.col-md-3", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "279,28"
+    }, {
+      "id": "2cb56936-1ec7-4988-b6cd-f726ea8e6833",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.col-md-3",
+      "targets": [
+        ["css=.col-md-3", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "279,28"
+    }, {
+      "id": "4bf56175-8037-4e0a-9866-5449c0138b68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2)",
+      "targets": [
+        ["css=.row:nth-child(2)", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8936b781-7f14-4d06-bfdc-c36cd6689d28",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "786a5a33-1be5-47b2-b82b-c84183e8fd92",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c59779ff-34b8-4966-9fb8-48d0d349bbef",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Apples"
+    }, {
+      "id": "aef1afe6-7521-40a7-a670-0d7d73ced631",
+      "comment": "",
+      "command": "click",
+      "target": "id=price",
+      "targets": [
+        ["id=price", "id"],
+        ["css=#price", "css:finder"],
+        ["xpath=//input[@id='price']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24e737a2-da33-42ee-b1f6-b6d2649b4cce",
+      "comment": "",
+      "command": "type",
+      "target": "id=price",
+      "targets": [
+        ["id=price", "id"],
+        ["css=#price", "css:finder"],
+        ["xpath=//input[@id='price']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "3193db21-f433-4db7-95ab-dfb91c28f00b",
+      "comment": "",
+      "command": "click",
+      "target": "id=updateBtn",
+      "targets": [
+        ["id=updateBtn", "id"],
+        ["css=#updateBtn", "css:finder"],
+        ["xpath=//button[@id='updateBtn']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Update Product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5e73195-c0ad-4544-bbd6-2de936763704",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//button[@onclick='deleteProduct(1741427891325)']", "xpath:attributes"],
+        ["xpath=//tbody[@id='productTable']/tr/td[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//td[4]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d3d469c1-e99e-4287-ae42-93ac7b6567f4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e2e6459f-3bfc-492a-a66e-65866d9716fa"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
