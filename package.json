@@ -16,7 +16,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "mochawesome": "^7.1.3",
+    "mochawesome": "^7.1.4",
     "mochawesome-merge": "^5.0.0",
     "mochawesome-report-generator": "^6.2.0"
   },
